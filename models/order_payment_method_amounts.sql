@@ -38,7 +38,7 @@
 
 
 
-{%- set payment_methods = get_payment_methods() -%}
+{%- set payment_methods = get_payment_methods1() -%}
 
 select
 order_id,
