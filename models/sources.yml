@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: demo
+    database: demo
+    schema: demo_schema
+    tables:
+      - name: WEATHER_DATA_AFTER_STAGGING
+      - name : WEATHER_STAGGING_DATA
+      - name : BIKE_DATA_AFTER_STAGGING
