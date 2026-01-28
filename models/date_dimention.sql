@@ -7,6 +7,6 @@ with cte as (
         {{get_day_type('starttime')}} day_type,
         {{get_season_of_year('starttime')}} season_of_year,
         monthname(to_timestamp(starttime)) monthname
-    from {{ source('demo', 'BIKE_DATA_AFTER_STAGGING') }}
+    from {{ ref('stg_bike') }}
 )
 select * from cte
