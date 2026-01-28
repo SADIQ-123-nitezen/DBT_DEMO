@@ -8,3 +8,4 @@ sources:
       - name: WEATHER_DATA_AFTER_STAGGING
       - name : WEATHER_STAGGING_DATA
       - name : BIKE_DATA_AFTER_STAGGING
+      - name : BIKE_DATA_AFTER_STAGGING_2016
